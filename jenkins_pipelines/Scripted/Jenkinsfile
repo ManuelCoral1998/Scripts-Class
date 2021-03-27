@@ -1,4 +1,8 @@
-node {  
+node {
+
+    stage("Checkout SCM"){
+        checkout scm
+    }
     stage('Build') { 
         // 
     }
