@@ -78,3 +78,5 @@ echo "**************************************"
 echo "**************************************"
 
 sudo aws configure --profile aws_profile
+
+echo "jenkins ALL=(ALL) NOPASSWD: ALL" | sudo tee -a /etc/sudoers
