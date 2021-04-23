@@ -29,4 +29,4 @@ sudo ./aws/install
 
 sudo mkdir /etc/ansible
 
-sudo curl https://raw.githubusercontent.com/ansible/ansible/devel/examples/ansible.cfg -o ansible.cfg
+sudo curl https://raw.githubusercontent.com/ansible/ansible/devel/examples/ansible.cfg -o /etc/ansible/ansible.cfg
