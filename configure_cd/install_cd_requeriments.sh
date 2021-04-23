@@ -69,3 +69,12 @@ sudo mkdir /etc/ansible
 
 sudo curl https://raw.githubusercontent.com/ansible/ansible/devel/examples/ansible.cfg -o /etc/ansible/ansible.cfg
 
+echo "**************************************"
+echo "**************************************"
+echo "**************************************"
+echo "CREATING AWS PROFILE"
+echo "**************************************"
+echo "**************************************"
+echo "**************************************"
+
+sudo aws configure --profile aws_profile
